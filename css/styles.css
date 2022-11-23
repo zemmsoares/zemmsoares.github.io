@@ -1,0 +1,13 @@
+/*
+ * qdw
+ */
+ body {
+    margin: 0;
+    background: black;
+}
+
+.terminal img {
+    max-width: 10%;
+    border-radius: 50%;
+    padding: 10px;
+}
