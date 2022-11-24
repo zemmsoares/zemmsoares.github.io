@@ -17,6 +17,7 @@ $(function () {
         "- pfetch              Simple resume.\n" +
         "- fa                  List Academic Education.\n" +
         "- fp                  List Professional Experience.\n" +
+        "- fc                  List Contact Information.\n" +
         "- ls                  List information about the FILEs (the current directory by default).\n" +
         "- cat [file]          Concatenate FILE(s) to standard output.\n"
     );
@@ -50,7 +51,8 @@ $(function () {
     term.echo(
       "<p class='title__bg'>&nbsp;> Contact</p>" +
         "<div><span class='fa__year'>[Github]&nbsp;</span><a href='https://github.com/zemmsoares' target='_blank'>@zemmsoares</a></div>" +
-        "<div><span class='fa__year'>[Linkedin]&nbsp;</span><a href='https://www.linkedin.com/in/zemmsoares/' target='_blank'>@zemmsoares</a></div>",
+        "<div><span class='fa__year'>[Linkedin]&nbsp;</span><a href='https://www.linkedin.com/in/zemmsoares/' target='_blank'>@zemmsoares</a></div>" +
+        "<div><span class='fa__year'>[Email]&nbsp;</span>zemmsoares@gmail.com</div>",
       { raw: true }
     );
   }
