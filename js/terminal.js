@@ -14,15 +14,45 @@ $(function () {
   function help(term) {
     term.echo(
       "Available commands: \n\n" +
+        "- pfetch              Simple resume.\n" +
+        "- fa                  List Academic Education.\n" +
+        "- fp                  List Professional Experience.\n" +
         "- ls                  List information about the FILEs (the current directory by default).\n" +
-        "- cat [file]          Concatenate FILE(s) to standard output.\n" +
-        "- pfetch              A pretty system information tool written in POSIX sh.\n"
+        "- cat [file]          Concatenate FILE(s) to standard output.\n"
     );
   }
 
   function list(term) {
     //term.echo(dir.color);
     term.echo(/*"[[;lime;]teste.sh] " + */ "[[;lime;]about] " + "links ");
+  }
+
+  function fa(term) {
+    term.echo(
+      "<p class='title__bg'>&nbsp;> Academic Education</p>" +
+        "<div><b><span class='fa__year'>[2018]</span></b> CTeSP App development <b>(IPG)</b></div>" +
+        "<div><b><span class='fa__year'>[2022]</span></b> Marketing & Business Technologies <b>(IPAM)</b></div>" +
+        "<div><b><span class='fa__year'>[2022]</span></b> B.S. Computer Science <b>(IPG)</b> </div>",
+      { raw: true }
+    );
+  }
+
+  function fp(term) {
+    term.echo(
+      "<p class='title__bg'>&nbsp;> Professional Experience</p>" +
+        "<div><b><span class='fa__year'>[2014-2022]</span></b> Graphic design & Web development Freelancer <b>(Freelancer.com)</b></div>" +
+        "<div><b><span class='fa__year'>[2018-2018]</span></b> App Development CTeSP Internship <b>(GoContact)</b> Guarda, Portugal</div>",
+      { raw: true }
+    );
+  }
+
+  function fc(term) {
+    term.echo(
+      "<p class='title__bg'>&nbsp;> Contact</p>" +
+        "<div><span class='fa__year'>[Github]&nbsp;</span><a href='https://github.com/zemmsoares' target='_blank'>@zemmsoares</a></div>" +
+        "<div><span class='fa__year'>[Linkedin]&nbsp;</span><a href='https://www.linkedin.com/in/zemmsoares/' target='_blank'>@zemmsoares</a></div>",
+      { raw: true }
+    );
   }
 
   function cat(term, file) {
@@ -50,7 +80,8 @@ $(function () {
     }*/ else if (file == "links") {
       term.echo(
         "[[!;;;;https://github.com/zemmsoares]Github]\n" +
-          "[[!;;;;https://www.linkedin.com/in/zemmsoares/]Linkedin]"
+          "[[!;;;;https://www.linkedin.com/in/zemmsoares/]Linkedin]\n" +
+          "[[!;;;;https://www.freelancer.com/u/visualoutline]Freelancer]"
       );
     } else {
       term.echo("cat: No such file or directory");
@@ -59,14 +90,14 @@ $(function () {
 
   function pfetch(term) {
     term.echo(
-      "<p class='line'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/\\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;zm@archlap</p>" +
-        "<p class='line'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;\\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class='pfetch__title'><b>os:</b></span>     Arch Linux + Windows for Adobe</p>" +
-        "<p class='line'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp&nbsp;\\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class='pfetch__title'><b>host:</b></span>   VivoBook_ASUSLaptop X530UFO 1.0</p>" +
-        "<p class='line'>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class='pfetch__title'><b>cv:</b></span> 6.0.9-arch1-1</p>" +
+      "<p class='line'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/\\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;zemmsoares@arch</p>" +
+        "<p class='line'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;\\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class='pfetch__title'><b>who:</b></span>     Miguel Soares</p>" +
+        "<p class='line'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp&nbsp;\\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class='pfetch__title'><b>do:</b></span>   Graphic Design & Development</p>" +
+        "<p class='line'>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class='pfetch__title'><b>from :</b></span> Portugal</p>" +
         "<p class='line'>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;,,&nbsp;&nbsp;&nbsp;\\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class='pfetch__title'><b>uptime:</b></span> " +
         time() +
         "</p>" +
-        "<p class='line'>&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;-\\&nbsp;&nbsp;&nbsp;&nbsp;<span class='pfetch__title'><b>pkgs:</b></span>   722</p>" +
+        "<p class='line'>&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;-\\&nbsp;&nbsp;&nbsp;&nbsp;<span class='pfetch__title'><b>email:</b></span>   zemmsoares@gmail.com</p>" +
         "<p class='line'>&nbsp;/_-''&nbsp;&nbsp;&nbsp;&nbsp;''-_\\&nbsp;&nbsp;&nbsp;<span class='pfetch__title'><b>memory:</b></span> 6804M / 15883M</p>",
       { raw: true }
     );
@@ -88,6 +119,15 @@ $(function () {
       },
       time: function () {
         time(this);
+      },
+      fa: function () {
+        fa(this);
+      },
+      fp: function () {
+        fp(this);
+      },
+      fc: function () {
+        fc(this);
       },
     },
     {
