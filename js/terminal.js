@@ -63,10 +63,11 @@ $(function () {
         "<p class='line'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;\\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;os     Arch Linux</p>" +
         "<p class='line'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp&nbsp;\\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;host   VivoBook_ASUSLaptop X530UFO 1.0</p>" +
         "<p class='line'>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kernel 6.0.9-arch1-1</p>" +
-        "<p class='line'>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;,,&nbsp;&nbsp;&nbsp;\\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uptime 3d 2h 32m</p>" +
+        "<p class='line'>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;,,&nbsp;&nbsp;&nbsp;\\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uptime " +
+        time() +
+        "</p>" +
         "<p class='line'>&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;-\\&nbsp;&nbsp;&nbsp;&nbsp;pkgs   722</p>" +
         "<p class='line'>&nbsp;/_-''&nbsp;&nbsp;&nbsp;&nbsp;''-_\\&nbsp;&nbsp;&nbsp;memory 6804M / 15883M</p>",
-
       { raw: true }
     );
   }
@@ -84,6 +85,9 @@ $(function () {
       },
       pfetch: function () {
         pfetch(this);
+      },
+      time: function () {
+        time(this);
       },
     },
     {
