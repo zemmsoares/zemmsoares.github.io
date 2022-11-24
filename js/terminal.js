@@ -14,9 +14,9 @@ $(function () {
   function help(term) {
     term.echo(
       "Available commands: \n\n" +
-        "- pfetch              A pretty system information tool written in POSIX sh.\n" +
+        "- ls                  List information about the FILEs (the current directory by default).\n" +
         "- cat [file]          Concatenate FILE(s) to standard output.\n" +
-        "- ls                  List information about the FILEs (the current directory by default).\n"
+        "- pfetch              A pretty system information tool written in POSIX sh.\n"
     );
   }
 
