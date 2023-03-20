@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    
+    {{- partial "head.html" . -}}
+    <body data-theme = "{{ .Site.Params.defaultColor }}" class="notransition">
+        {{- partial "scriptsBodyStart.html" . -}}
+        {{- partial "header.html" . -}}
+        <div class="wrapper">
+            {{ partial "bio" . }}
+            <!--
+            <main aria-label="Content">
+                <h3 style="font-weight: bold; font-size: 16px;" class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
+                {{/* Show last 5 posts in reverse date order */}}
+                {{ $posts := .Site.RegularPages.ByDate.Reverse }}
+                {{ range first 5 $posts }}
+                {{ partial "postCard" . }}
+                {{ end }}
+                {{ if gt (len $posts) 5 }}
+                <p style="font-size: 14px;">
+                    <a href="/posts/">See all posts</a>
+                </p>
+                {{ end }}
+            </main>
+            -->
+
+
+            <main aria-label="Content">
+                <h3 style="font-weight: bold; font-size: 16px;" class="posts-item-note" aria-label="Recent Posts">Achievements</h3>
+
+                <article class="post-item">
+                    <h4 class="post-item-title"><a style="font-size: 16px; color: gray;" >Founded <a href="https://visualoutline.vercel.app/" target="_blank">visualoutline</a></a></h4>
+                    <time class="post-item-meta" >2014</time>
+                </article>
+                <article class="post-item">
+                    <h4 class="post-item-title"><a style="font-size: 16px; color: gray;" >Started working as a graphic design <a href="https://freelancer.com/u/visualoutline" target="_blank">freelancer</a></a></h4>
+                    <time class="post-item-meta" >2014</time>
+                </article>
+                <article class="post-item">
+                    <h4 class="post-item-title"><a style="font-size: 16px; color: gray;" >Completed a Higher Technical Professional Course in App Development</a></h4>
+                    <time class="post-item-meta" >2018</time>
+                </article>
+                <article class="post-item">
+                    <h4 class="post-item-title"><a style="font-size: 16px; color: gray;" >Graduated with a Bachelor's degree in Computer Science, <a href="https://freelancer.com/u/visualoutline" target="_blank">Thesis</a></a></h4>
+                    <time class="post-item-meta" >2022</time>
+                </article>
+                <article class="post-item">
+                    <h4 class="post-item-title"><a style="font-size: 16px; color: gray;" >Completed a post-grad in Marketing and Business Technologies at IPAM</a></h4>
+                    <time class="post-item-meta" >2022</time>
+                </article>
+                <article class="post-item">
+                    <h4 class="post-item-title"><a style="font-size: 16px; color: gray;" >Completed Frontend Development specialization by Meta, <a href="/certificates/Metafrontend.pdf" target="_blank">Certificate</a></a></h4>
+                    <time class="post-item-meta" >2023</time>
+                </article>
+            </main>
+
+
+        </div>
+        {{- partial "footer.html" . -}}
+        {{- partial "scriptsBodyEnd.html" . -}}
+    </body>
+</html>

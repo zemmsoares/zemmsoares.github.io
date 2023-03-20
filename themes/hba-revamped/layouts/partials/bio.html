@@ -1,0 +1,9 @@
+<div class="author">
+    <img class="author-avatar" 
+    src="{{ .Site.Params.author.avatar | absURL }}" 
+    alt="{{ .Site.Params.author.name }}" width="70px" height="70px" />
+    <h2 class="author-name">{{ .Site.Params.author.intro }}</h2>
+    <p class="author-bio">{{ .Site.Params.author.description }}</p>
+    <a href="/cv.pdf" class="button-resume" style="margin-left: 5px;">My Resume in <img src="/US.svg" /></a>
+    <a href="/cv-pt.pdf" class="button-resume" style="margin-left: 5px;">My Resume in <img src="/PT.svg" /></a>
+</div>

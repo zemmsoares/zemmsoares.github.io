@@ -1,0 +1,71 @@
+title = "zemmsoares.xyz"
+baseURL = 'https://zemmsoares.xyz/'
+languageCode = 'en-us'
+defaultContentLanguage = 'en'
+theme = "hba-revamped"
+
+# To enable Google Analytics 4 (gtag.js) provide G-MEASUREMENT_ID below.
+# To disable  Google Analytics, simply leave the field empty or remove the next line
+googleAnalytics = '' # G-MEASUREMENT_ID
+
+# Enable emojis globally
+enableEmoji = true
+
+# set markup.highlight.noClasses=false to enable code highlight
+[markup]
+  [markup.highlight]
+    noClasses = false
+    
+[menu]
+  [[menu.main]]
+    pageRef="Posts"
+    name = 'Blog'
+    url = '/posts/'
+    weight = 10
+  [[menu.main]]
+    pageRef="About"
+    name = 'About'
+    url = '/about/'
+    weight = 20
+  [[menu.main]]
+    pageRef="Projects"
+    name = 'Projects'
+    url = '/projects/'
+    weight = 30
+  [[menu.main]]
+    pageRef="Resume"
+    name = 'Resume'
+    url = '/cv.pdf'
+    weight = 50
+
+
+[params]
+  sitename = "zemmsoares.xyz"
+  defaultColor = "dark" # set default color mode: dark or light
+  description = "my personal website"
+
+[params.author]
+  avatar = "me_profile.webp"
+  intro = "Miguel Soares"
+  name = "zemmsoares"
+  description = "Computer Engineer with Postgraduate Education in Digital Marketing and self-taught Graphic Designer"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/zemmsoares"
+
+[[params.socialIcons]]
+name = "instagram"
+url = "https://www.instagram.com/zemmsoares/"
+
+[[params.socialIcons]]
+name = "Linkedin"
+url = "https://www.linkedin.com/in/zemmsoares/"
+
+[[params.socialIcons]]
+name = "Youtube"
+url = "https://www.youtube.com/@zemmsoares"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto://zemmsoares@gmail.com"
