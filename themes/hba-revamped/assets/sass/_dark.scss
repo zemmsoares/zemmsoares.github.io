@@ -164,8 +164,8 @@ body[data-theme="dark"] {
   // Timeline
   .timeline-item { 
       /*all the others*/
-      &:not(:first-of-type) {
-        border-top: 1px solid $dark-light;
+      .timeline-item-title {
+        border-bottom: 1px solid $dark-light;
       }
   }
 

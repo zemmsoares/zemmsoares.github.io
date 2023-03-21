@@ -145,10 +145,11 @@ img[src$='#center'] {
     bottom: 0;
     width: 1px;
     background-color: $dark-gray;
+
   }
 
   &:not(:first-of-type) {
-    border-top: 1px solid $light;
+    //border-top: 1px solid $light;
   }
 
 
@@ -192,6 +193,7 @@ img[src$='#center'] {
     font-size: $base-font-size;
     font-weight: normal;
     letter-spacing: 0.1px;
+    border-bottom: 1px solid $light;
 
     a {
       color: $text-base-color;
