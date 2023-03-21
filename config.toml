@@ -32,12 +32,6 @@ enableEmoji = true
     name = 'Projects'
     url = '/projects/'
     weight = 30
-  [[menu.main]]
-    pageRef="Resume"
-    name = 'Resume'
-    url = '/cv.pdf'
-    weight = 50
-
 
 [params]
   sitename = "zemmsoares.xyz"
