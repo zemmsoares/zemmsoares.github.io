@@ -6,6 +6,6 @@ tags: ["Wordpress"]
 Type: development
 ---
 
-Development a website designed for the League of Legends coach of team Cloud9 (Veigarv2), aimed at providing exclusive content to subscribers, in order to remove the Patreon dependency, users can subscribe with different plans to the platform on a monthly basis to gain access to the content. The project is currently in its final stages of development.
+Veigarv2 is a website developed and designed for a Cloud9 League of Legends coach to provide exclusive content to his subscribers to remove Patreon's dependency. Users can subscribe with different plans to the platform every month to gain access to the content. The project is currently in its final stages of development.
 
 Website: https://veigarv2.com/subscription/
