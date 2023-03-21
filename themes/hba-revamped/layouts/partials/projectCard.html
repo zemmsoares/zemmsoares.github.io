@@ -1,0 +1,15 @@
+<article class="post-item">
+    <h4 class="post-item-title">
+        <a style="font-size: 16px; color: gray;" href="{{ .Permalink }}">{{ .Title }}</a>
+        <span class="post-tags">
+            {{ range .Params.tags }}
+                <li>[ {{ . }} ]</li>
+            {{ end }}
+        </span>
+    </h4>
+    {{/*  format date string to create an ISO 8601 string  */}}
+    {{ $ISO_date := "2006-01-02T15:04:05Z0700" }}
+    <time class="post-item-meta" datetime="{{ .Date.Format $ISO_date }}">
+        {{ .Date.Format "2006" }}
+    </time>
+</article>

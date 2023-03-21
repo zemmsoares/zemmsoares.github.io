@@ -2,6 +2,8 @@
 title: "Terminal Headlines"
 date: 2023-03-20T15:48:35Z
 draft: false
+tags: ["C++", "Ncurses"]
+Type: development
 ---
 
 # terminal-headlines

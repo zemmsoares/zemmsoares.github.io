@@ -1,12 +1,15 @@
 ---
 title: "Go Jira"
-date: 2023-03-20T15:49:38Z
+date: 2019-03-20T15:49:38Z
 draft: false
+tags: ["React", "Node"]
+Type: development
 ---
 
 <img src="https://github.com/zemmsoares/GO-JIRA/blob/master/FrontEnd/src/img/logo.png" width="350"/>
 
 Application for monitoring Issues from JIRA Projects. Check status, issues & storypoints for a given Sprint, Search Issues status, type per Assignee. Advanced Search for filtering issues on multiple Assignees and Date Range.
+
 
 [![sample screenshot](https://i.imgur.com/dc5znTc.png)](https://i.imgur.com/5oiqX3O.png)
 [![sample screenshot](https://i.imgur.com/B02gWlj.png)](https://i.imgur.com/QUJKOec.png)

@@ -1,9 +1,9 @@
 ---
-title: "Codeflex2"
-date: 2022-03-20T15:48:07Z
+title: "Classica"
+date: 2021-03-20T15:48:07Z
 draft: false
-tags: ["React","Spring", "Node"]
-Type: development
+tags: ["Branding"]
+Type: design
 ---
 
 # Codeflex 2.0

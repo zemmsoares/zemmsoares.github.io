@@ -161,6 +161,11 @@ body[data-theme="dark"] {
     .post-item-date {
       color: $dark-white;
     }
+  
+    .post-tags li {
+      color: #383a3b;
+    }
+  
     .post-item-title {
       a {
         color: $dark-text-base-color;

@@ -2,6 +2,8 @@
 title: "Little Lemon Restaurant"
 date: 2023-03-20T18:56:47Z
 draft: false
+tags: ["React"]
+Type: development
 ---
 
 The Little-Lemon-Restaurant project is a capstone project developed as part of Meta Front-End Developer course. Responsive, with validation without using formik or chakra ui.

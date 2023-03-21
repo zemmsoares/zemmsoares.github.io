@@ -1,7 +1,9 @@
 ---
 title: "Polybar News"
-date: 2023-03-20T15:35:48Z
+date: 2020-03-20T15:35:48Z
 draft: false
+tags: ["Bash", "Python"]
+Type: development
 ---
 
 ![Polybar-news](/projects/polybar-news.gif?raw=true "Polybar-news")

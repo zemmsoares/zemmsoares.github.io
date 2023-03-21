@@ -1,5 +1,5 @@
 title = "zemmsoares.xyz"
-baseURL = 'https://zemmsoares.xyz/'
+baseURL = 'https://zemmsoares.xyz'
 languageCode = 'en-us'
 defaultContentLanguage = 'en'
 theme = "hba-revamped"
