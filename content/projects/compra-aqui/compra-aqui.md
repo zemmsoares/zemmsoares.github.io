@@ -6,5 +6,6 @@ tags: ["Python", "React Native"]
 Type: development
 ---
 
-Compra-aqui scrapper python for products
-that stores daily prices and displays them with react native
+Github repository: https://github.com/zemmsoares/compra-aqui
+
+"Compra-Aqui" is a Python web scraper that collects product prices from multiple stores on a daily basis. The data is stored in a database, allowing users to compare prices and detect fake promotions. The React Native frontend enables users to quickly access current prices from each store.

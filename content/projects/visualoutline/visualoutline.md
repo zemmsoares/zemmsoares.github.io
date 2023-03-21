@@ -6,4 +6,12 @@ tags: ["React", "Locomotivescroll"]
 Type: development
 ---
 
-visualoutline website
+Website: https://visualoutline.vercel.app/  
+Website repository: https://github.com/zemmsoares/visualoutline  
+Freelancer: https://www.freelancer.com/u/visualoutline
+
+I have been using VisualOutline to display my work and connect with clients. Initially, I used it solely on freelancer platforms, but recently, I have created a React with Locomotive Scroll page to offer a more engaging and immersive user experience.
+
+Beyond just a website, VisualOutline is a brand that reflects my passion for graphic design and my unwavering dedication to delivering exceptional results.
+
+![Visualoutline website](/projects/visualoutline/screen.png)

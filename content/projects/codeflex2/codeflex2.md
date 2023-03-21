@@ -12,5 +12,15 @@ Extension of the original Codeflex, a competitive programming platform, through 
 
 [Short Paper of my thesis](/articles/codeflex-shortpaper.pdf)
 
+![Codeflex Create Problem](/projects/codeflex/index.png)
+
+![Codeflex Create Problem](/projects/codeflex/torneios.png)
+
+![Codeflex Create Problem](/projects/codeflex/problem.png)
+
+![Codeflex Create Problem](/projects/codeflex/submissions.png)
+
+![Codeflex Create Problem](/projects/codeflex/plag.png)
+
 This repository is a derivative work of [Codeflex](https://github.com/miguelfbrito/Codeflex)
 Copyright (c) Miguel Brito
