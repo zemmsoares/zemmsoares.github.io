@@ -1,13 +1,14 @@
 ---
-title: "Classica"
-date: 2021-03-20T15:48:07Z
+title: "codeflex2"
+date: 2022-03-20T15:48:07Z
 draft: false
-tags: ["Branding"]
-Type: design
+tags: ["React", "Spring", "Node"]
+Type: development
 ---
 
-# Codeflex 2.0
 Extension of the original Codeflex, a competitive programming platform, through the addition of new features and updating existing ones. Among these are the extension of compilation capabilities to Haskell and Prolog, implementing tools that make it easy to visualize user performance and support plagiarism detection in code submissions.
+
+[Short Paper of my thesis](/articles/codeflex-shortpaper.pdf)
 
 This repository is a derivative work of [Codeflex](https://github.com/miguelfbrito/Codeflex)
 Copyright (c) Miguel Brito

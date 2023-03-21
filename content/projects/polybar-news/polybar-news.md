@@ -1,5 +1,5 @@
 ---
-title: "Polybar News"
+title: "polybar-news"
 date: 2020-03-20T15:35:48Z
 draft: false
 tags: ["Bash", "Python"]
@@ -7,6 +7,8 @@ Type: development
 ---
 
 ![Polybar-news](/projects/polybar-news.gif?raw=true "Polybar-news")
+
+News display module for Polybar & i3blocks
 
 ## Get API Key
 

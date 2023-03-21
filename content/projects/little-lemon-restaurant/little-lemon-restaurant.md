@@ -1,12 +1,12 @@
 ---
-title: "Little Lemon Restaurant"
+title: "little-lemon-restaurant"
 date: 2023-03-20T18:56:47Z
 draft: false
 tags: ["React"]
 Type: development
 ---
 
-The Little-Lemon-Restaurant project is a capstone project developed as part of Meta Front-End Developer course. Responsive, with validation without using formik or chakra ui.
+The Little-Lemon-Restaurant project is a capstone project developed as part of Meta Front-End Developer course. Responsive, with validation.
 
 ![Little-Lemon-Restaurant in action](/projects/little-lemon-restaurant.gif)
 
@@ -36,4 +36,4 @@ To ensure the project functions correctly, you can run the Jest tests by:
 npm test
 ```
 
-![Little-Lemon-Restaurant in action](/docs/responsive.png)
+![Little-Lemon-Restaurant in action](/projects/little-lemon-restaurant/responsive.png)
