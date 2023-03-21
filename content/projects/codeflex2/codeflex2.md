@@ -6,6 +6,8 @@ tags: ["React", "Spring", "Node"]
 Type: development
 ---
 
+Github repository: https://github.com/zemmsoares/codeflex2
+
 Extension of the original Codeflex, a competitive programming platform, through the addition of new features and updating existing ones. Among these are the extension of compilation capabilities to Haskell and Prolog, implementing tools that make it easy to visualize user performance and support plagiarism detection in code submissions.
 
 [Short Paper of my thesis](/articles/codeflex-shortpaper.pdf)
