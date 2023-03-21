@@ -36,4 +36,4 @@ To ensure the project functions correctly, you can run the Jest tests by:
 npm test
 ```
 
-![Little-Lemon-Restaurant in action](/projects/little-lemon-restaurant/responsive.png)
+![Little-Lemon-Restaurant in action](/projects/little-lemon-restaurant/responsive.png#center)
