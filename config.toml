@@ -4,6 +4,8 @@ languageCode = 'en-us'
 defaultContentLanguage = 'en'
 theme = "hba-revamped"
 
+enableRobotsTXT = true
+
 # To enable Google Analytics 4 (gtag.js) provide G-MEASUREMENT_ID below.
 # To disable  Google Analytics, simply leave the field empty or remove the next line
 googleAnalytics = '' # G-MEASUREMENT_ID
