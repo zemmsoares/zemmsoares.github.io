@@ -38,7 +38,7 @@ enableEmoji = true
 [params]
   sitename = "zemmsoares.xyz"
   defaultColor = "light" # set default color mode: dark or light
-  description = "my personal website"
+  description = "Discover my projects and get in touch with me for collaboration opportunities"
 
 [params.author]
   avatar = "me_profile.webp"
