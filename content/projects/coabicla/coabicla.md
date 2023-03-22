@@ -10,8 +10,8 @@ Nestled within the Coa Valley in Vila Nova de Foz Coa, lies one of the world's m
 
 At Coabicla, we offer bicycle rentals for adventurous travelers to explore Vila Nova de Foz Coa from a unique perspective. Experience the rich history and breathtaking scenery of the Coa Valley, as you venture through the area's many biking trails.
 
-![coabicla idea](/projects/coabicla/outline.jpg)
+![coabicla idea](/projects/coabicla/outline.webp)
 
 {{< youtube zmiiDz41yBU >}}
 
-![coabicla logo](/projects/coabicla/coabicla.jpg)
+![coabicla logo](/projects/coabicla/coabicla.webp)

@@ -8,7 +8,7 @@ Type: development
 
 The Little-Lemon-Restaurant project is a capstone project developed as part of Meta Front-End Developer course. Responsive, with validation.
 
-![Little-Lemon-Restaurant in action](/projects/little-lemon-restaurant.gif)
+![Little-Lemon-Restaurant in action](https://github.com/zemmsoares/little-lemon-restaurant/blob/master/docs/example.gif?raw=true)
 
 #### Note: wireframe on /docs
 
@@ -36,4 +36,4 @@ To ensure the project functions correctly, you can run the Jest tests by:
 npm test
 ```
 
-![Little-Lemon-Restaurant in action](/projects/little-lemon-restaurant/responsive.png#center)
+![Little-Lemon-Restaurant in action](/projects/little-lemon-restaurant/responsive.webp#center)

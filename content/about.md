@@ -11,3 +11,5 @@ Completing a post-graduate program in marketing and business technologies has gi
 
 Feel free to check out my [resume](/cv.pdf) for a more detailed look at my work history and qualifications. If you have any questions or would like to discuss potential projects, please don't hesitate to [contact me](mailto://zemmsoares@gmail.com). I look forward to hearing from you!
 
+![Picture](/me.webp)
+

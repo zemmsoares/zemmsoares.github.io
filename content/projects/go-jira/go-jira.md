@@ -10,11 +10,11 @@ Type: development
 
 Application for monitoring Issues from JIRA Projects. Check status, issues & storypoints for a given Sprint, Search Issues status, type per Assignee. Advanced Search for filtering issues on multiple Assignees and Date Range.
 
-![Go-jira](/projects/go-jira/index.png)
+![Go-jira](/projects/go-jira/index.webp)
 
-![Go-jira](/projects/go-jira/advanced_filters.png)
+![Go-jira](/projects/go-jira/advanced_filters.webp)
 
-![Go-jira](/projects/go-jira/storypoints_sprint.png)
+![Go-jira](/projects/go-jira/storypoints_sprint.webp)
 
 
 

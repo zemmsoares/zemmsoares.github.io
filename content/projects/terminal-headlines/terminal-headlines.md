@@ -8,7 +8,7 @@ Type: development
 
 You can stay on top of the news headlines from your favorite sources with **terminal-headlines**, keep updated on the latest headlines straight from the comfort of your command line.
 
-![screenshot](/projects/terminal-headlines.png)
+![terminal-headlines screenshot](/projects/terminal-headlines/terminal-headlines.webp)
 
 ## Features
 

@@ -15,4 +15,4 @@ I have been using VisualOutline to display my work and connect with clients. Ini
 
 Beyond just a website, VisualOutline is a brand that reflects my passion for graphic design and my unwavering dedication to delivering exceptional results.
 
-![Visualoutline website](/projects/visualoutline/screen.png)
+![Visualoutline website](/projects/visualoutline/screen.webp)
