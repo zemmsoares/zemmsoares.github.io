@@ -6,7 +6,7 @@ tags: ["React"]
 Type: development
 ---
 
-The Little-Lemon-Restaurant project is a capstone project developed as part of Meta Front-End Developer course. Responsive, with validation.
+The [Little-Lemon-Restaurant](https://zemmsoares.xyz/little-lemon-restaurant/) project is a capstone project developed as part of Meta Front-End Developer course. Responsive, with validation.
 
 ![Little-Lemon-Restaurant in action](https://github.com/zemmsoares/little-lemon-restaurant/blob/master/docs/example.gif?raw=true)
 

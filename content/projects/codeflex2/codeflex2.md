@@ -10,7 +10,7 @@ Github repository: https://github.com/zemmsoares/codeflex2
 
 Extension of the original Codeflex, a competitive programming platform, through the addition of new features and updating existing ones. Among these are the extension of compilation capabilities to Haskell and Prolog, implementing tools that make it easy to visualize user performance and support plagiarism detection in code submissions.
 
-[Short Paper of my thesis](/articles/codeflex-shortpaper.pdf)
+This project was created as my final project for the Bachelor of Computer Science degree. A short paper summarizing the project can be found [here](/articles/codeflex-shortpaper.pdf).
 
 ![Codeflex Index Screenshot](/projects/codeflex/index.webp)
 

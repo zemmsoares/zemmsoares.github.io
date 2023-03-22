@@ -3,6 +3,21 @@
     <header class="header">
         <h1 class="header-title center">{{ .Title }}</h1>
     </header>
+
+  <!--
+    <div style="text-align: center;">
+        {{ $tags := slice }}
+        {{ range .Pages }}
+            {{ range .Params.tags }}
+                {{ $tags = union $tags (slice .) }}
+            {{ end }}
+        {{ end }}
+        {{ range $tags }}
+            <span class="post-tags" style="color: gray; font-size: 12px;" ><a href="/tags/{{ . | urlize }}">[ {{ . }} ]</a></span>
+        {{ end }}
+    </div>
+    -->
+
     <main class="page-content" aria-label="Content">
         {{ $devPages := where .Pages "Type" "development" }}
         <h2 class="post-year">Development</h2>
@@ -17,5 +32,7 @@
             {{ partial "projectCard" . }}
         {{ end }} {{/* end range sort $designPages ".Date.Year" "desc" */}}
     </main>
+
+    
 </div>
 {{- end -}}
