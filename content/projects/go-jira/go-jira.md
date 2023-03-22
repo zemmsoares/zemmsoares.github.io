@@ -8,6 +8,8 @@ Type: development
 
 <img src="https://github.com/zemmsoares/GO-JIRA/blob/master/FrontEnd/src/img/logo.png" width="350"/>
 
+Github repository: https://github.com/zemmsoares/Go-jira
+
 Application for monitoring Issues from JIRA Projects. Check status, issues & storypoints for a given Sprint, Search Issues status, type per Assignee. Advanced Search for filtering issues on multiple Assignees and Date Range.
 
 ![Go-jira](/projects/go-jira/index.webp)
@@ -15,8 +17,6 @@ Application for monitoring Issues from JIRA Projects. Check status, issues & sto
 ![Go-jira](/projects/go-jira/advanced_filters.webp)
 
 ![Go-jira](/projects/go-jira/storypoints_sprint.webp)
-
-
 
 Please report any issues or bugs you may find by [creating an issue ticket](https://github.com/zemmsoares/GO-JIRA/issues/new) here on GitHub.  
 Make sure you include steps on how to reproduce it.

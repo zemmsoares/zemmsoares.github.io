@@ -6,6 +6,8 @@ tags: ["C++", "Ncurses"]
 Type: development
 ---
 
+Github repository: https://github.com/zemmsoares/terminal-headlines
+
 You can stay on top of the news headlines from your favourite sources with **terminal-headlines**, and keep updated on the latest headlines straight from the comfort of your command line.
 
 ![terminal-headlines screenshot](/projects/terminal-headlines/terminal-headlines.webp)

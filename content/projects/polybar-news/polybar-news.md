@@ -6,6 +6,8 @@ tags: ["Bash", "Python"]
 Type: development
 ---
 
+Github repository: https://github.com/zemmsoares/polybar-news
+
 ![Polybar-news](/projects/polybar-news.gif?raw=true "Polybar-news")
 
 News display module for Polybar & i3blocks
