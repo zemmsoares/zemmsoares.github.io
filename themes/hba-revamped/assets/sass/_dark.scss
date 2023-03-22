@@ -164,6 +164,9 @@ body[data-theme="dark"] {
   // Timeline
   .timeline-item { 
       /*all the others*/
+      &::before {
+        background-color: $dark-light; 
+      }
       .timeline-item-title {
         border-bottom: 1px solid $dark-light;
       }
