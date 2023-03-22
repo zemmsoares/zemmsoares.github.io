@@ -10,13 +10,13 @@ Type: development
 
 Application for monitoring Issues from JIRA Projects. Check status, issues & storypoints for a given Sprint, Search Issues status, type per Assignee. Advanced Search for filtering issues on multiple Assignees and Date Range.
 
-[![sample screenshot](https://i.imgur.com/dc5znTc.png)](https://i.imgur.com/5oiqX3O.png)
-[![sample screenshot](https://i.imgur.com/B02gWlj.png)](https://i.imgur.com/QUJKOec.png)
-[![sample screenshot](https://i.imgur.com/t11QZ59.png)](https://i.imgur.com/TR3zCU8.png)
-[![sample screenshot](https://i.imgur.com/IzvpE6l.png)](https://i.imgur.com/gKF6Org.png)
-[![sample screenshot](https://i.imgur.com/1FokdRS.png)](https://i.imgur.com/zac7YgP.png)
-[![sample screenshot](https://i.imgur.com/e3oiPfg.png)](https://i.imgur.com/OOP7WL1.png)
-[![sample screenshot](https://i.imgur.com/Tkks00R.png)](https://i.imgur.com/Ob4qAwu.png)
+![Go-jira](/projects/go-jira/index.png)
+
+![Go-jira](/projects/go-jira/advanced_filters.png)
+
+![Go-jira](/projects/go-jira/storypoints_sprint.png)
+
+
 
 Please report any issues or bugs you may find by [creating an issue ticket](https://github.com/zemmsoares/GO-JIRA/issues/new) here on GitHub.  
 Make sure you include steps on how to reproduce it.

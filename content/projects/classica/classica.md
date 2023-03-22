@@ -1,12 +1,13 @@
 ---
-title: "classica"
-date: 2021-03-20T15:48:07Z
+title: "essential-rewards"
+date: 2021-05-20T15:48:07Z
 draft: false
-tags: ["Branding"]
+tags: ["UI/UX"]
 Type: design
 ---
 
-Extension of the original Codeflex, a competitive programming platform, through the addition of new features and updating existing ones. Among these are the extension of compilation capabilities to Haskell and Prolog, implementing tools that make it easy to visualize user performance and support plagiarism detection in code submissions.
+The UX/UI design for this mobile application provides a visually appealing and user-friendly experience, with a focus on the unique reward points system. The application is a valuable tool for customers, allowing them to track their points and spend them on a wide range of products, making their shopping experience more enjoyable and rewarding.
 
-This repository is a derivative work of [Codeflex](https://github.com/miguelfbrito/Codeflex)
-Copyright (c) Miguel Brito
+![n222 logo](/projects/essential-rewards/ui.jpg)
+
+
