@@ -35,7 +35,7 @@ enableEmoji = true
 
 [params]
   sitename = "zemmsoares.xyz"
-  defaultColor = "dark" # set default color mode: dark or light
+  defaultColor = "light" # set default color mode: dark or light
   description = "my personal website"
 
 [params.author]
