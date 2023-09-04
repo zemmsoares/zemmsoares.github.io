@@ -8,34 +8,8 @@ Type: development
 
 Github repository: https://github.com/zemmsoares/little-lemon-restaurant
 
-The [Little-Lemon-Restaurant](https://zemmsoares.xyz/little-lemon-restaurant/) project is a capstone project developed as part of Meta Front-End Developer course. Responsive, with validation.
+The [Little-Lemon-Restaurant](https://zemmsoares.xyz/little-lemon-restaurant/) is a capstone project, developed as part of the Meta Front-End Developer course. This responsive web application is designed to simulate a restaurant's operations and user interface, providing an interactive and visually appealing platform. The project has been constructed with meticulous validation to ensure a seamless user experience.
 
 ![Little-Lemon-Restaurant in action](https://github.com/zemmsoares/little-lemon-restaurant/blob/master/docs/example.gif?raw=true)
-
-#### Note: wireframe on /docs
-
-## Installation
-
-To install the necessary packages, run the following command in your terminal:
-
-```
-npm i
-```
-
-## Starting the Project
-
-Once the packages are installed, you can start the project by running:
-
-```
-npm start
-```
-
-## Running Tests
-
-To ensure the project functions correctly, you can run the Jest tests by:
-
-```
-npm test
-```
 
 ![Little-Lemon-Restaurant in action](/projects/little-lemon-restaurant/responsive.webp#center)
