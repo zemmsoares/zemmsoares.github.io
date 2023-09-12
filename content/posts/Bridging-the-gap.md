@@ -4,20 +4,18 @@ date: 2023-08-03T10:00:50Z
 draft: false
 ---
 
-Every hero has an origin story. Mine? It started with a nine-year-old, a CD-ROM, and a click.
+Everyone has a starting point. For me, it was messing around with a CD-ROM at nine years old.
 
-Long before the era of broadband and touch screens, my digital exploration began on my sister's Windows 95 computer. I was armed with a stash of gaming magazine CD-ROMs - my gateways to a mesmerizing universe of pixels and possibilities. As my eyes reflected the soft glow of the monitor, my childhood was illuminated by the wonders of this brave new world.
+My first experience with computers was messing around on my sister's ancient Windows 95. No high-speed internet, just simple gaming magazines with CD-ROMs. They introduced me to tech, and I was hooked.
 
-My teen years marked the commencement of a new chapter: design. As an active denizen of online forums, my profile stood out, a digital artwork crafted with a passion for aesthetics. I found myself fielding requests for design assistance from other users, turning my creative pastime into a profitable side gig.
+Moving into my teenage years, I transitioned into a new passion: design. My uniquely crafted online forum profile caught attention, and soon, people were seeking my advice on design. This hobby started to feel more like a potential career path.
 
-My venture into the freelancing domain marked a turning point. A single project turned my world upside down - a logo design project that evolved into a comprehensive UI/UX development task. The client's next question: "Can you code it?" That moment, heavy with potential, was a revelation. I couldn't code, but the possibility sparked a thought - why not broaden my horizon and turn my designs into functional realities?
+Then came a freelance project that shook things up: a logo job that turned into a full-on UI/UX project. The client asked, "Can you also code this?" And bam! It hit me. Why not take my designs to the next level and bring them to life?
 
-Fueled by this epiphany, I took a leap into the vast ocean of tech. After high school, I chose the app development path and further expanded my knowledge base by pursuing a Bachelor's degree in Computer Science. But my thirst for a complete understanding of the tech world drove me to a postgraduate detour into marketing and business tech.
+This realization led me to pursue a Computer Science degree and, later, further my education with a focus on marketing. Nowadays, my skill set is multifaceted: I can sketch out ideas, code them into existence, and, thanks to my marketing background, understand the complete lifecycle of a tech project.
 
-Today, I stand at the crossroads of my multifaceted career, armed with the ability to ideate, create, and market technological marvels. My heart might lean towards design and development, but my marketing knowledge gives me an edge in this competitive digital arena.
+Reflecting on my journey, it's remarkable to see the distance I've traveled—from a kid enamored with a CD-ROM to a seasoned professional in technology. But I recognize that this is merely the starting line; I look forward to the new challenges and opportunities ahead.
 
-In retrospect, my transformation from a wide-eyed boy engrossed in a CD-ROM to a seasoned tech aficionado has been a journey of relentless learning and evolution. Yet, I know my journey has only begun, and I'm eager to embrace the challenges and opportunities.
-
-And the iconic image of that magazine CD-ROM? It's more than just an image. It's a symbol of a young boy's first steps into a world that would define his future, a testament to the fact that every grand journey begins with a simple click.
+As for that old gaming CD-ROM, it's more than just a keepsake collecting dust. It's a symbol of my initial foray into a world that would ultimately shape who I am today.
 
 ![PCGAMER Magazine](/posts/magazine.webp)
