@@ -6,7 +6,7 @@ tags: ["React", "Locomotivescroll"]
 Type: development
 ---
 
-Website: https://visualoutline.vercel.app/  
+Website: https://zemmsoares.xyz/visualoutline/  
 Website repository: https://github.com/zemmsoares/visualoutline  
 Freelancer: https://www.freelancer.com/u/visualoutline  
 Instagram: https://www.instagram.com/visualoutline.studio/
